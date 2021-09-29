@@ -4,7 +4,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+body{
+  margin: 0;
+}
  #A{
      background-color: #2d3092;
     display: flex ;
@@ -77,6 +79,9 @@
     }
   }
   .Logo_nav {
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 5px #00000047;
     display: flex;
     justify-content: space-around;
     padding: 15px 0;
