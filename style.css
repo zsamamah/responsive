@@ -344,3 +344,19 @@ body{
   .mybutton:hover{
       background-color: #0056b3;
   }
+#A i:hover{
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color:#3ba0ff ;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-google-plus-g:hover{
+    color: red;
+}
+
+.fa-linkedin-in:hover{
+    color: #0a66c2;
+}
