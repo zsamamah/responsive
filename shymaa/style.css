@@ -1,0 +1,78 @@
+@media screen and (max-width: 769px) {
+  .bg_img {
+    display: none;
+  }
+  .bg_text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-basis: 600px;
+    font-size: 35px !important;
+    font-weight: 700;
+    font-family: "Sen", sans-serif;
+    color: #030431;
+    text-align: center;
+  }
+  .bg_section button {
+    margin: 30px !important;
+  }
+}
+
+.Logo_nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  font-weight: bold;
+  align-items: center;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.nav_wrapper > div {
+  width: 10em;
+}
+.nav_wrapper > div:hover {
+  width: 10em;
+  color: rgb(66, 66, 90);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bg_section {
+  background-color: #c4e2fe;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bg_section .bg_text {
+  flex-basis: 600px;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Sen", sans-serif;
+  color: #030431;
+  text-align: center;
+}
+
+.bg_section .bg_text button {
+  background-color: #2d3092;
+  color: white;
+  font-size: 16px;
+  padding: 20px 25px;
+  border: #2d3092 1px solid;
+  font-family: monospace;
+}
+.bg_section .bg_text button:hover {
+  background-color: #7389eb;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  padding: 20px 25px;
+  border: #6a7bca 1px solid;
+  font-family: monospace;
+}

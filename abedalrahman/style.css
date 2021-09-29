@@ -1,0 +1,44 @@
+.contener{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ #A{
+     background-color: mediumblue;
+    display: flex ;
+    width: 30%;
+    justify-content: space-between;
+    margin: 2px;
+ }
+
+
+ .bc{
+
+    display: flex ;
+    width:40% ;
+    justify-content: space-around;
+ }
+
+ #D{
+
+    display: flex ;
+    width: 30%;
+    justify-content: space-around;
+ }
+@media screen and (max-width:480px) {
+    .contener{
+        flex-direction: column;
+        align-items: center;
+    } 
+    #A{
+        width: 100%;
+    }   
+    .bc{
+        width: 100%;
+    }
+    #D{
+        justify-content: space-between;
+    }
+}
+ 
