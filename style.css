@@ -2,19 +2,31 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
  #A{
-     background-color: mediumblue;
+     background-color: #2d3092;
     display: flex ;
     width: 30%;
     justify-content: space-between;
     margin: 2px;
+    padding:10px 0;
+    color: white;
+ }
+ #C{
+    font-family: Roboto, sans-serif;
+ }
+ #D a,#D{
+     text-decoration: none;
+     color: #030431;
+     font-family: Roboto, sans-serif;
+ }
+ #D a:hover{
+     color: #0056b3;
  }
 
-
  .bc{
-
     display: flex ;
     width:40% ;
     justify-content: space-around;
@@ -111,7 +123,7 @@
     font-family: monospace;
   }
   .bg_section .bg_text button:hover {
-    background-color: #7389eb;
+    background-color: #0056b3;
     cursor: pointer;
     color: white;
     font-size: 16px;
@@ -259,9 +271,10 @@
   }
   .smicons {
     margin: 1%;
+    cursor: pointer;
   }
   .smicons:hover {
-    color: turquoise;
+    color: #0056b3;
   }
   .col {
     display: flex;
@@ -279,6 +292,7 @@
     list-style: none;
     color: #868c98;
     font-size: 15px;
+    cursor: pointer;
     /* width: 200px; */
   }
   .col > ul > li:hover {
@@ -308,4 +322,12 @@
       width: 50%;
     }
   }
-  
+  .mybutton{
+    background-color: #2d3092;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .mybutton:hover{
+      background-color: #0056b3;
+  }
