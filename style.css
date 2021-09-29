@@ -76,7 +76,6 @@
       margin: 30px !important;
     }
   }
-  
   .Logo_nav {
     display: flex;
     justify-content: space-around;
@@ -334,6 +333,8 @@
     color: white;
     border: none;
     cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
   }
   .mybutton:hover{
       background-color: #0056b3;
