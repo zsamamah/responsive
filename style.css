@@ -109,6 +109,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: fit-content;
   }
   .bg_section .bg_text {
     flex-basis: 600px;
@@ -266,6 +267,7 @@
     font-size: 30px;
     height: fit-content;
     padding: 1%;
+    width: fit-content;
   }
   .container {
     display: flex;
