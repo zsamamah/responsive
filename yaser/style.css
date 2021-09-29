@@ -1,0 +1,123 @@
+.coursesSection .courseSectionTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+.coursesSection .courseSectionTop p{
+    color: #3ba0ff;
+    font-family: "Josefin Sans",sans-serif;
+}
+.coursesSection .courseSectionTop h2{
+    color: #030431;
+    font-family: "Sen",sans-serif;
+    font-size: 3vw;
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardsContainer .cardsGrid{
+    display: grid;
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2vw;
+}
+.oneCardContainer{
+    border: #d4d4d4ce 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2vw;
+    
+}
+.oneCardContent{
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 16px;
+}
+.oneCardContent h5{
+    color: #250051;
+    font-size: 1.5em;
+    font-family: "Sen",sans-serif;
+    
+}
+.oneCardContent p{
+    color: #57667e;
+    font-size: 1.3em;
+    font-family: "Roboto",sans-serif;
+}
+.oneCardContent a{
+    color: #5d6072;
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+
+}
+.oneCardContent i{
+    color: #2d3092;
+    font-size: 5em;
+
+}
+.cardsContainer> button{
+    margin: 3vw auto;
+    padding:1vw 2vw;
+    background-color:#2d3092;
+    color: #fff;
+    border: none;
+    font-size: 1.3em;;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+}
+.oneCardContainer{
+    color: #2d3092;
+}
+.cardsContainer> button:hover{
+    background-color:#0056b3;
+    color: #fff;
+    transition: 0.5s;
+
+}
+.oneCardContainer:hover{
+
+    background-color: #2d3092;
+    transition: 0.5s;
+}
+.oneCardContainer:hover p,.oneCardContainer:hover a,.oneCardContainer:hover h5,.oneCardContainer:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:950px) {
+    .cardsContainer .cardsGrid{
+        display: grid;
+        width: 80vw;
+        min-height: 80vh;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 2vw;
+        transition: 0.5s;
+    }
+    .coursesSection .courseSectionTop h2{
+        color: #030431;
+        font-family: "Sen",sans-serif;
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width:650px) {
+    .cardsContainer .cardsGrid{
+        display: grid;
+        width: 80vw;
+        min-height: 80vh;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2vw;
+    }
+}
